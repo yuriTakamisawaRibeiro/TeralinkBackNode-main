@@ -1,0 +1,12 @@
+comandos do sequelize-cli
+
+gerar banco de dados(irá criar o banco de dados que está no .env em "DB_NAME") ->  npx sequelize-cli db:create 
+
+
+
+gerar atributos ->   npx sequelize-cli model:generate --name <nomeTabela> --attributes nomeAtributo1:TIPOATRIBUTO, nomeAtributo2:TIPOATRIBUTO
+
+
+criar tabelas no banco de dados -> npx sequelize-cli db:migrate
+
+deletar tabelas para quando ter que fazer alterações nela -> npx sequelize-cli db:migrate:undo

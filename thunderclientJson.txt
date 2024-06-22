@@ -1,0 +1,22 @@
+
+Json Signup
+
+{
+  "userType": "1",
+  "name": "teste",
+  "email": "teste@gmail.com",
+  "cpf": "00000000000",
+  "password": "123",
+  "confirmPassword": "123"
+}
+
+---------------------------------
+
+Json login
+
+{
+  "email": "teste@gmail.com",
+  "password": "123"
+}
+
+--------------------------------
